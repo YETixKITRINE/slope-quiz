@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+}
+canvas {
+  display: block;
+  margin: 16px auto;
+  background: #fafafa;
+  border: 1px solid #ccc;
+}
+.question {
+  margin-bottom: 32px;
+}
+.choices {
+  margin-top: 8px;
+}
+.choices label {
+  display: block;
+  margin-bottom: 6px;
+}
+#result {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 24px;
+}
